@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { 
   Shield, Layout, Cpu, ArrowRight, Diamond, Mail, Phone, CheckCircle2, User
@@ -82,64 +81,3 @@ const App = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
             <PillarCard icon={Shield} subtitle="The Foundation" title="Identity & Branding" description="Establish authority with professional systems." features={["Custom Logo Systems", "Strategic Profiles"]} price="4,500" accent="blue" />
             <PillarCard icon={Layout} subtitle="The Engine" title="Web Architecture" description="Secure, responsive, performance-optimized hubs." features={["Performance Design", "Lead Capture"]} price="8,500" accent="cyan" />
-            <PillarCard icon={Cpu} subtitle="The Brain" title="Digital Intelligence" description="Custom AI automation for unique workflows." features={["AI Integrations", "Workflow Automation"]} price="5,000" accent="indigo" />
-          </div>
-        </div>
-      </section>
-
-      <section id="contact" className="py-32 px-6 md:px-8 border-t border-slate-900 bg-[#020408]">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-4xl font-bold text-white mb-8 tracking-tight uppercase">Begin the Architecture</h2>
-          <p className="text-slate-400 text-xl mb-16">Connect with us to start your transformation.</p>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="flex flex-col gap-4 bg-[#0a0c10] border border-slate-800 p-8 rounded-3xl hover:border-blue-500 transition-all text-left">
-               <div className="flex items-center gap-6">
-                 <div className="w-14 h-14 bg-blue-600/10 rounded-2xl flex items-center justify-center shrink-0">
-                    <User size={28} className="text-blue-400" />
-                 </div>
-                 <div>
-                    <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest">Strategist</p>
-                    <span className="text-lg font-bold text-white">Reece</span>
-                 </div>
-               </div>
-               <div className="flex flex-col gap-3 mt-4">
-                 <a href="tel:+27676381778" className="flex items-center gap-3 text-slate-400 hover:text-blue-400 font-medium">
-                   <Phone size={16} /> 067 638 1778
-                 </a>
-                 <a href="mailto:reece@atlanticaiautomation.com" className="flex items-center gap-3 text-slate-400 hover:text-blue-400 font-medium">
-                   <Mail size={16} /> reece@atlanticaiautomation.com
-                 </a>
-               </div>
-            </div>
-            <div className="flex flex-col gap-4 bg-[#0a0c10] border border-slate-800 p-8 rounded-3xl hover:border-blue-500 transition-all text-left">
-               <div className="flex items-center gap-6">
-                 <div className="w-14 h-14 bg-blue-600/10 rounded-2xl flex items-center justify-center shrink-0">
-                    <User size={28} className="text-blue-400" />
-                 </div>
-                 <div>
-                    <p className="text-[10px] text-slate-500 uppercase font-black tracking-widest">Strategist</p>
-                    <span className="text-lg font-bold text-white">Christian</span>
-                 </div>
-               </div>
-               <div className="flex flex-col gap-3 mt-4">
-                 <a href="tel:+27716072402" className="flex items-center gap-3 text-slate-400 hover:text-blue-400 font-medium">
-                   <Phone size={16} /> +27 71 607 2402
-                 </a>
-                 <a href="mailto:christian@atlanticaiautomation.com" className="flex items-center gap-3 text-slate-400 hover:text-blue-400 font-medium">
-                   <Mail size={16} /> christian@atlanticaiautomation.com
-                 </a>
-               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <footer className="py-20 px-8 border-t border-slate-900 bg-black text-center flex flex-col items-center">
-        <span className="text-white font-bold uppercase tracking-widest text-sm">Atlantic AI</span>
-        <span className="text-[9px] text-blue-500 uppercase tracking-widest font-black mt-1">Digital Solutions © 2026</span>
-      </footer>
-    </div>
-  );
-};
-
-export default App;
