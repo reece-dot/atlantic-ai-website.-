@@ -1,4 +1,4 @@
-```react
+
 import React, { useState, useEffect } from 'react';
 import { 
   Shield, Layout, Cpu, ArrowRight, Diamond, Mail, Phone, CheckCircle2, User
@@ -143,5 +143,3 @@ const App = () => {
 };
 
 export default App;
-
-```
